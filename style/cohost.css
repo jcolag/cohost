@@ -1,0 +1,70 @@
+/*
+ * SPDX-FileCopyrightText: 2024 John Colagioia
+ *
+ * SPDX-License-Identifier: CC-BY-SA-4.0
+ */
+
+:root {
+  --shadow1: light-dark(hsla(333.2,56%,12.9%,.14),hsla(333.2,56%,87.1%,.14));
+  --shadow2: light-dark(hsla(333.2,56%,12.9%,.12),hsla(333.2,56%,87.1%,.12));
+  --shadow3: light-dark(hsla(333.2,56%,12.9%,.2),hsla(333.2,56%,87.1%,.2));
+}
+a {
+  color: var(--blue);
+  text-decoration-color: var(--blue);
+}
+a:visited {
+  color: var(--magenta);
+  text-decoration-color: var(--magenta);
+}
+b, em, i {
+  color: red;
+}
+body {
+  background-color: var(--base02);
+}
+blockquote {
+  color: var(--green);
+}
+img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+}
+.contents {
+  background-color: light-dark(white, black);
+  padding: 1em;
+}
+.cohost-link {
+  text-decoration: none;
+}
+.cw {
+  border: 0.5em solid var(--cyan);
+  border-radius: 0.5em;
+  margin-left: calc(10% - 1em);
+  max-width: 80%;
+  padding: 0.5em;
+  text-align: center;
+}
+.post {
+  background-color: var(--base03);
+  box-shadow: 0px 4px 5px var(--shadow1),0px 1px 10px var(--shadow2),0px 2px 4px var(--shadow3);
+  border-radius: 0.5em;
+  padding: 1em;
+  margin-top: 1em;
+}
+.tag {
+  list-style: '# ';
+}
+.tags {
+  margin-left: 2.5em;
+  padding-left: 0;
+}
+#explanation {
+  background-color: var(--base02);
+  border-radius: 1em;
+  margin: auto;
+  padding: 1em;
+  text-align: center;
+  width: 50%;
+}
