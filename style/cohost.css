@@ -26,6 +26,10 @@ body {
 blockquote {
   color: var(--green);
 }
+iframe {
+  display: block;
+  margin: 0 auto;
+}
 img {
   display: block;
   margin: auto;
